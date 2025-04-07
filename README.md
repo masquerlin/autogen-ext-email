@@ -14,7 +14,7 @@ pip install git+https://github.com/masquerlin/autogen-ext-email
 
 [](https://github.com/masquerlin/autogen-ext-email/blob/main/README.md#usage)
 
-See [example.py](https://github.com/gagb/autogen-yt-agent/blob/main/example.py) for a simple example of how to use this agent. Note, this example requires the OpenAI client, so please install the relevant extension.
+See example.py for a simple example of how to use this agent. Note, this example requires the OpenAI client, so please install the relevant extension.
 
 ## License
 
