@@ -8,7 +8,7 @@ model_client = OpenAIChatCompletionClient(
         api_key=api_key,
         parallel_tool_calls=False,
     )
-
+# img_base_url and img_api_key is from https://www.aliyun.com/product/bailian, or you can change your image generating method by yourself.
 e_agent = EmailAgent(name='email_agent', 
                      model_client=model_client,
                      email_config=EmailConfig(

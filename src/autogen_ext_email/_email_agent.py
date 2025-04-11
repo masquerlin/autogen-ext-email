@@ -18,7 +18,7 @@ from autogen_agentchat.messages import (
 )
 
 
-from email_tools import (
+from ._email_tools import (
     TOOL_GENERATE_IMAGE,
     TOOL_GET_ATTACH_DATA,
     TOOL_GET_IMAGE_DATA,

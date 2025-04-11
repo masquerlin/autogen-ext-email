@@ -1,13 +1,16 @@
 [project]
 name = "autogen-ext-email"
-version = "0.1.0"
+version = "0.2.0"
 description = "A Email agent for AutoGen"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "autogen-agentchat==0.4.9.3",
+    "autogen_ext[openai]"
 ]
-
+authors = [
+  {name = "masquerlin", email = "masquerlin@example.com"}
+]
 [tool.ruff]
 include = ["src/**"]
 line-length = 120
